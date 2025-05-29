@@ -1,0 +1,31 @@
+#startScreen {
+  position: absolute;
+  margin: 0 auto;
+  width: 1024px; 
+  height: 768px; 
+  background:black; 
+  color:white; 
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column;
+  z-index: 10;
+}
+
+#game {
+  position: relative;
+  z-index: 1;
+}
+canvas { 
+    background: black; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+body { 
+    color: white;
+    background-image: url('../img/1.jpg');
+    text-align: center; 
+    font-family: sans-serif; 
+}
+
